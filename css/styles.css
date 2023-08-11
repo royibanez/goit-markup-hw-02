@@ -97,9 +97,11 @@ body{
 }
 
 .border3{
+    padding-top: 1rem;
     flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
 }
+
 
 .footertext{
     font-family: Roboto;
@@ -121,3 +123,4 @@ body{
     color: white;
 
 }
+
