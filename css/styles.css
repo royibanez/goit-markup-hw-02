@@ -1,0 +1,123 @@
+body{
+    font-family: 'Railway', Roboto;
+    background-color: #FFF;
+}
+
+.web1{
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--iris, #4D5AE5);
+          
+}
+
+.studio1{
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--navyblue, #2E2F42);
+    
+}
+
+
+
+.border1{
+
+    width: 1440px;
+    flex-shrink: 0;
+    background: var(--navyblue, #2E2F42);
+    
+
+}
+
+.aligntext1{
+    text-align: center;
+    color: white;
+}
+
+.orderbutton{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.goals{
+    font-family: Roboto;
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    
+}
+
+.aligntext2 {
+    text-align: center;
+}
+
+.aligntext3{
+    text-align: center;
+}
+
+.ourteam1-center{
+    text-align: center;
+}
+
+.productdesign{
+    text-align: center;
+}
+
+.ourteam2-center {
+    text-align: center;
+}
+
+.frontend-developer{
+    text-align: center;
+}
+
+.ourteam3-center{
+    text-align: center;
+}
+
+.marketing{
+    text-align: center;
+}
+
+.ourteam4-center {
+    text-align: center;
+}
+
+.ui-designer{
+    text-align: center;
+}
+
+.border2{
+    background: var(--cloud, #F4F4FD);
+}
+
+.border3{
+    flex-shrink: 0;
+    background: var(--navyblue, #2E2F42);
+}
+
+.footertext{
+    font-family: Roboto;
+    color:white;
+}
+
+.web2 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    color: #4D5AE5
+
+}
+
+.studio2{
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+
+}
