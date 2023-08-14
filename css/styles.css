@@ -3,7 +3,7 @@ body{
     background-color: #FFF;
 }
 
-.web1{
+.web{
     font-family: Raleway;
     font-weight: 800;
     font-size: 18px;
@@ -11,7 +11,7 @@ body{
           
 }
 
-.studio1{
+.studio{
     font-family: Raleway;
     font-weight: 800;
     font-size: 18px;
@@ -22,8 +22,6 @@ body{
 
 
 .mainborder{
-
-    width: 1440px;
     flex-shrink: 0;
     background: var(--navyblue, #2E2F42);
     
@@ -58,10 +56,14 @@ body{
 }
 
 .ourteam-border{
-    text-align: center;
+    background: var(--cloud, #F4F4FD);;
 }
 
 .ourteam-textcenter{
+    text-align: center;
+}
+
+.ourteam-center{
     text-align: center;
 }
 
@@ -114,14 +116,13 @@ body{
     font-weight: 800;
     font-size: 18px;
     color: #4D5AE5
-
 }
 
-.studio2{
+.studio2 {
+    background-color: navy;
     font-family: Raleway;
     font-weight: 800;
     font-size: 18px;
     color: white;
 
 }
-
