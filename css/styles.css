@@ -36,10 +36,10 @@ body{
 }
 
 .orderbutton :hover{
-    cursor: pointer;
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;
+    cursor: pointer;
     
 }
 
