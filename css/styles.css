@@ -1,7 +1,9 @@
 body{
-    font-family: 'Railway', Roboto;
+    font-family: 'Roboto';
     background-color: #FFF;
 }
+
+
 
 .web{
     font-family: Raleway;
@@ -17,6 +19,10 @@ body{
     font-size: 18px;
     color: var(--navyblue, #2E2F42);
     
+}
+
+#ul-menu{
+    list-style: none;
 }
 
 
@@ -35,9 +41,19 @@ body{
 
 .orderbutton{
     display: inline-flex;
+    padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    color: white;
     cursor: pointer;
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
     
 }
 
