@@ -75,6 +75,13 @@ body{
     background: var(--cloud, #F4F4FD);;
 }
 
+
+.ourteam-list {
+    list-style: none;
+    
+}
+
+
 .ourteam-textcenter{
     text-align: center;
 }
@@ -110,6 +117,8 @@ body{
 .ui-designer{
     text-align: center;
 }
+
+
 
 .border2{
     background: var(--cloud, #F4F4FD);
