@@ -54,20 +54,25 @@ body{
 }
 
 /* nav-list */
-#nav-list,
-#header-contactinfo{
+.nav-list,
+.header-contactinfo{
     list-style: none;
 }
 
-#nav-list a{
+.nav-list-item a{
     text-decoration: none;
-    font-style: 500;
+    font-weight: 500;
     color: var(--color-navyblue);
 }
 
 
+.header-contactinfo a:hover,
+.header-contactinfo a:focus{
+    color: var(--color-ocean);
+}
 
-#header-contactinfo a{
+
+.header-contactinfo a{
     text-decoration: none;
     font-style: normal;
     color: var(--color-slate);
@@ -95,7 +100,7 @@ body{
 
 .order-button{
     cursor: pointer;
-    
+
 }
 
 /* .what-are-we-doing-section */
