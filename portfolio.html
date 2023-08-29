@@ -4,46 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"/>
+
 </head>
 <body>
-
-
-    <body>
-        <!--Header-->
-        <header id="body-header"> 
-        <nav id="nav-header">    
-        <a id="logo-header" href="./index.html">
-            <span id="span-logo">WEB</span>STUDIO
+    
+    <header class="portfolio-header"> 
+        <nav class="portfolio-nav-header">    
+        <a class="portfolio-logo" href="./index.html">
+            <span class="portfolio-span">WEB</span>STUDIO
         </a>
-           
-        <ul class="nav-list">   
-            <li class="nav-list-item"> 
+
+        <ul class="portfolio-nav-list">   
+            <li class="nav-portfolio-list-item"> 
                 <a href="index.html">Studio </a></li>
-            <li class="nav-list-item"> 
+            <li class="nav-portfolio-list-item"> 
                 <a href="#">Portfolio</a></li>
-            <li class="nav-list-item"> 
+            <li class="nav-portfolio-list-item"> 
                 <a href="#">Contacts</a></li>     
                 </ul>
         </ul>
         </nav>
 
-        <address class="header-contactinfo" >
-            <ul class="contact-list">
-            <li class="header-mail"> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="headser-tel"> <a href="tel:+110001111111">+11 (000) 111-11-11</a></li> 
+
+<!-- address section -->
+
+        <address class="portfolio-address" >
+            <ul class="portfolio-contact-list">
+            <li class="portfolio-mail"> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="portfolio-tel"> <a href="tel:+110001111111">+11 (000) 111-11-11</a></li> 
           </ul>
         </address>
 </header>
 
-<!-- buttons -->
- <Button class="nav-button" type="All">Web</Button>
- <Button class="nav-button" type="button">Web Site</Button>
- <Button class="nav-button" type="button">App</Button>
- <Button class="nav-button" type="button">Design</Button>
- <Button class="nav-button" type="button">Marketing</Button>
+
+<!-- portfolio buttons -->
+<ul class="buttons">
+    <li class="button-menu">
+        <a href="./index.html" class="link"></a>
+        <button>All</button></li>
+
+    <li class="button-menu">
+        <a href="./index.html" class="link"></a>
+            <button>Web Site</button></li>
+    
+    <li class="button-menu">
+        <a href="./index.html" class="link"></a>
+            <button>App</button></li>
+        
+    <li class="button-menu">
+        <a href="./index.html" class="link"></a>
+            <button>Design</button></li>
+            
+    <li class="button-menu" >
+        <a href="./index.html" class="link"></a>
+            <button>Marketing</button></li>          
+</ul>
 
 
- <section class="apps">
+   <!-- apps section -->
+
+   <section class="apps">
+    <ul class="apps-features">
         <li class="feature-apps">
             <li class="feature-list"><img src="images/feature-app-1.jpg" alt="bank" width="264"> 
             <h3>Banking App Interface Concept</h3>
@@ -70,7 +94,7 @@
                 <p class="description">Marketing</p></li>.
 
         <li class="feature-list"><img src="images/feature-app-7.jpg" alt="Instagram" width="264">
-             <h3>Instagram Stories Concept</h3> 
+            <h3>Instagram Stories Concept</h3> 
                 <p class="description">Design</p></li>
 
         <li class="feature-list"><img src="images/feature-app-8.jpg" alt="organicfood" width="264">
@@ -79,23 +103,24 @@
 
         <li class="feature-list"><img src="images/feature-app-9.jpg" alt="Coffee" width="264">
             <h3>Fresh Coffee</h3> 
-                <p class="description">Web Site</p>
-            </li>
+            <p class="description">Web Site</p>
         </li>
-    </ul>
+    </li>
+</ul>
 </section>
 
-<footer id="footer-section">     
-    <a id="footer-logo" href="./index.html">
-        <span id="footer-logo-span">WEB</span>STUDIO
-    </a>
-            <p id="footer-note">Increase the flow of customers and 
-            <br> 
-            sales for your business with digital 
-            <br>
-            marketing & growth solutions..</p>
-</footer>
+<!-- footer section -->
 
-    
+        <footer class="portfolio-footer-section">     
+            <a class="portfolio-footer-logo" href="./index.html">
+                <span class="portfolio-footer-logo-span">WEB</span>STUDIO
+            </a>
+                    <p class="portfolio-footer-note">Increase the flow of customers and 
+                    <br> 
+                    sales for your business with digital 
+                    <br>
+                    marketing & growth solutions..</p>
+        </footer>
+
 </body>
 </html>
